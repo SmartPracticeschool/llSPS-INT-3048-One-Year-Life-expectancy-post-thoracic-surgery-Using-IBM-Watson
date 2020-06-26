@@ -1,0 +1,159 @@
+"docType":"iam.identity-access-map"
+"version":"1.0.0"
+"createdById":"IBMid-550007USU5"
+"date":"2020-06-26T10:45:55.740Z"
+"fullReport":true
+"displayName":"Munender Sharma"
+"contact":"munendra04011998@gmail.com",,,,,,,
+"Resource","ID","Name","Email","Group Members","Role","Action","Policy IDs"
+"{""crn"":""crn:v1:bluemix:public:cloudantnosqldb:che01:a/d3a235b5d84c45a4964a88b652711da1:9423881b-d5cb-4f58-a9ef-867b25dc7226::"",
+""displayName"":""node-red-thoracic-su-cloudant-1593154781490"",
+""serviceName"":""cloudantnosqldb"",
+""resourceGroupId"":""3d19fe8a5fa74e1a9c53d53706434dac"",
+""resourceGroupName"":""Default""}","iam-ServiceId-40b413ef-f7b0-417c-a8cd-b6579a82f8ef","node-red-thoracic-su-cloudant-1593154781490",,,"Writer","cloudantnosqldb.local-document.write Write _local documents
+cloudantnosqldb.any-document.read Read any documents in a normal database
+cloudantnosqldb.account-uuids.read Generate doc ID UUIDs
+cloudantnosqldb.iam-session.delete Delete _iam_session endpoint
+cloudantnosqldb.account-all-dbs.read List all databases
+cloudantnosqldb.database-info.read Read /db/ database info
+cloudantnosqldb.database-ensure-full-commit.execute Call _ensure_full_commit endpoint
+cloudantnosqldb.session.read Read _session endpoint
+cloudantnosqldb.account-dbs-info.read Read _dbs_info endpoint
+cloudantnosqldb.account-meta-info.read View account metadata
+cloudantnosqldb.activity-tracker-event-types.read Access list of configured activity tracker event types for a service instance
+cloudantnosqldb.session.delete Delete _session endpoint
+cloudantnosqldb.iam-session.write Write _iam_session endpoint
+cloudantnosqldb.iam-session.read Read _iam_session endpoint
+cloudantnosqldb.session.write Write _session endpoint
+cloudantnosqldb.data-document.write Create, update and delete normal documents in a database
+cloudantnosqldb.account-search-analyze.execute Call _search_analyze endpoint
+cloudantnosqldb.account-db-updates.read Read db_updates feed","=HYPERLINK(""https://cloud.ibm.com/iam/serviceids/ServiceId-40b413ef-f7b0-417c-a8cd-b6579a82f8ef/policies/f311436b-f0f8-411c-9903-cb2394fbaf3c"",""f311436b-f0f8-411c-9903-cb2394fbaf3c"")"
+,,,,,"Writer","global-search-tagging.resource.read Find cloud resources
+iam.policy.read IAM Policy Read","=HYPERLINK(""https://cloud.ibm.com/iam/serviceids/ServiceId-40b413ef-f7b0-417c-a8cd-b6579a82f8ef/policies/f311436b-f0f8-411c-9903-cb2394fbaf3c"",""f311436b-f0f8-411c-9903-cb2394fbaf3c"")"
+,"iam-ServiceId-80daf5b7-e47d-4c6d-92c4-570333f57e70","0d7a5877-02d1-4aa6-b357-0ec19b37f15a",,,"Writer","cloudantnosqldb.local-document.write Write _local documents
+cloudantnosqldb.any-document.read Read any documents in a normal database
+cloudantnosqldb.account-uuids.read Generate doc ID UUIDs
+cloudantnosqldb.iam-session.delete Delete _iam_session endpoint
+cloudantnosqldb.account-all-dbs.read List all databases
+cloudantnosqldb.database-info.read Read /db/ database info
+cloudantnosqldb.database-ensure-full-commit.execute Call _ensure_full_commit endpoint
+cloudantnosqldb.session.read Read _session endpoint
+cloudantnosqldb.account-dbs-info.read Read _dbs_info endpoint
+cloudantnosqldb.account-meta-info.read View account metadata
+cloudantnosqldb.activity-tracker-event-types.read Access list of configured activity tracker event types for a service instance
+cloudantnosqldb.session.delete Delete _session endpoint
+cloudantnosqldb.iam-session.write Write _iam_session endpoint
+cloudantnosqldb.iam-session.read Read _iam_session endpoint
+cloudantnosqldb.session.write Write _session endpoint
+cloudantnosqldb.data-document.write Create, update and delete normal documents in a database
+cloudantnosqldb.account-search-analyze.execute Call _search_analyze endpoint
+cloudantnosqldb.account-db-updates.read Read db_updates feed","=HYPERLINK(""https://cloud.ibm.com/iam/serviceids/ServiceId-80daf5b7-e47d-4c6d-92c4-570333f57e70/policies/53844ac3-0bda-4fd8-ae3a-487c66636c75"",""53844ac3-0bda-4fd8-ae3a-487c66636c75"")"
+,,,,,"Writer","global-search-tagging.resource.read Find cloud resources
+iam.policy.read IAM Policy Read","=HYPERLINK(""https://cloud.ibm.com/iam/serviceids/ServiceId-80daf5b7-e47d-4c6d-92c4-570333f57e70/policies/53844ac3-0bda-4fd8-ae3a-487c66636c75"",""53844ac3-0bda-4fd8-ae3a-487c66636c75"")"
+,"IBMid-550007USU5","Munender Sharma","munendra04011998@gmail.com",,"Manager","cloudantnosqldb.limits-throughput.read Read throughput limits for current Plan
+cloudantnosqldb.account-uuids.read Generate doc ID UUIDs
+cloudantnosqldb.account-all-dbs.read List all databases
+cloudantnosqldb.sapi.supporttickets View support tickets for user
+cloudantnosqldb.couchdbextension-instance.write Make changes to an Extension for Apache CouchDB instance
+cloudantnosqldb.database.create Create databases
+cloudantnosqldb.sapi.usage-data-volume View instance data usage
+cloudantnosqldb.sapi.usage-requests View instance requests usage
+cloudantnosqldb.iam-session.write Write _iam_session endpoint
+cloudantnosqldb.users.read Read from users databases
+cloudantnosqldb.account-deleted-dbs.delete Delete deleted database
+cloudantnosqldb.account-db-updates.read Read db_updates feed
+cloudantnosqldb.replication.read Read from _replicator databases
+cloudantnosqldb.users-database-info.read Read _users database info
+cloudantnosqldb.replicator-database.create Create _replicator databases
+cloudantnosqldb.replication.write Write to _replicator databases
+cloudantnosqldb.users-database.create Create users databases
+cloudantnosqldb.iam-session.delete Delete _iam_session endpoint
+cloudantnosqldb.replication-scheduler.read Read _scheduler endpoints
+cloudantnosqldb.sapi.supportattachments View attachments on support tickets for user
+cloudantnosqldb.db.any Perform any database action
+cloudantnosqldb.current-throughput.read Read current request throughput
+cloudantnosqldb.activity-tracker-event-types.read Access list of configured activity tracker event types for a service instance
+cloudantnosqldb.session.delete Delete _session endpoint
+cloudantnosqldb.account-deleted-dbs.list List deleted databases
+cloudantnosqldb.database-security.write Write database security definitions
+cloudantnosqldb.database-security.read Read database security definitions
+cloudantnosqldb.account-search-analyze.execute Call _search_analyze endpoint
+cloudantnosqldb.sapi.db-security Allow update of DB security
+cloudantnosqldb.account-up.read View _up
+cloudantnosqldb.capacity-throughput.read Read current provisioned throughput
+cloudantnosqldb.cluster-membership.read View cluster membership
+cloudantnosqldb.local-document.write Write _local documents
+cloudantnosqldb.account-active-tasks.read View active tasks for instance
+cloudantnosqldb.activity-tracker-event-types.write Update list of configured activity tracker event types for a service instance
+cloudantnosqldb.any-document.read Read any documents in a normal database
+cloudantnosqldb.sapi.apikeys Generate Cloudant API keys for a service instance
+cloudantnosqldb.replicator-database.delete Delete _replicator databases
+cloudantnosqldb.replicator-database-info.read Read _replicator database info
+cloudantnosqldb.account-meta-info.read View account metadata
+cloudantnosqldb.sapi.lastactivity Access last activity time for account
+cloudantnosqldb.users.write Write to users databases
+cloudantnosqldb.data-document.write Create, update and delete normal documents in a database
+cloudantnosqldb.account-deleted-dbs.restore Restore deleted database
+cloudantnosqldb.couchdbextension-instance.read View metadata of an Extension for Apache CouchDB instance
+cloudantnosqldb.database.delete Delete databases
+cloudantnosqldb.capacity-throughput.write Update provisioned throughput capacity
+cloudantnosqldb.sapi.userccmdiagnostics Access current and maximum allowed throughput values
+cloudantnosqldb.sapi.userinfo Retrieve basic user infomation for this user
+cloudantnosqldb.database-info.read Read /db/ database info
+cloudantnosqldb.database-ensure-full-commit.execute Call _ensure_full_commit endpoint
+cloudantnosqldb.sapi.userplan Retrieve and update instance plan settings
+cloudantnosqldb.session.read Read _session endpoint
+cloudantnosqldb.sapi.usercors Update CORS settings for a service instance
+cloudantnosqldb.design-document.write Write _design documents
+cloudantnosqldb.account-dbs-info.read Read _dbs_info endpoint
+cloudantnosqldb.users-database.delete Delete users databases
+cloudantnosqldb.iam-session.read Read _iam_session endpoint
+cloudantnosqldb.database-shards.read View database shard metadata
+cloudantnosqldb.session.write Write _session endpoint","=HYPERLINK(""https://cloud.ibm.com/iam/users/IBMid-550007USU5/policies/417658a1-7851-4b23-bba3-bbc55f3ae1ac"",""417658a1-7851-4b23-bba3-bbc55f3ae1ac"")"
+,,,,,"Administrator","cloudantnosqldb.capacity-throughput.write Update provisioned throughput capacity
+cloudantnosqldb.activity-tracker-event-types.read Access list of configured activity tracker event types for a service instance
+cloudantnosqldb.activity-tracker-event-types.write Update list of configured activity tracker event types for a service instance
+cloudantnosqldb.sapi.userinfo Retrieve basic user infomation for this user
+cloudantnosqldb.sapi.usage-data-volume View instance data usage
+cloudantnosqldb.sapi.userplan Retrieve and update instance plan settings
+cloudantnosqldb.capacity-throughput.read Read current provisioned throughput","=HYPERLINK(""https://cloud.ibm.com/iam/users/IBMid-550007USU5/policies/417658a1-7851-4b23-bba3-bbc55f3ae1ac"",""417658a1-7851-4b23-bba3-bbc55f3ae1ac"")"
+,,,,,"Manager","global-search-tagging.resource.read Find cloud resources
+iam.policy.read IAM Policy Read","=HYPERLINK(""https://cloud.ibm.com/iam/users/IBMid-550007USU5/policies/417658a1-7851-4b23-bba3-bbc55f3ae1ac"",""417658a1-7851-4b23-bba3-bbc55f3ae1ac"")"
+,,,,,"Administrator","resource-controller.key.delete Resource Key Delete
+global-search-tagging.resource.read Find cloud resources
+iam.policy.update IAM Policy Update
+resource-controller.instance.create Resource Instance Create
+resource-controller.key.retrieve Resource Key Retrieve 
+iam.role.read IAM Role Read
+resource-controller.alias.retrieve Resource Alias Retrieve
+resource-controller.group.retrieve Resource Group Retrieve
+iam.policy.create IAM Policy Create
+resource-controller.key.update Resource Key Update
+resource-controller.instance.retrieve Resource Instance Retrieve
+resource-controller.quota.retrieve Quota Definitions Retrieve
+resource-controller.broker.retrieve Resource Broker Retrieve
+resource-controller.key.create Resource Key Create
+global-search-tagging.tag.attach-user-tag Attach tag
+iam.delegationPolicy.create IAM Delegation policy Create
+resource-controller.alias.create Resource Alias Create
+resource-controller.instance.retrieve_history Resource Instance Retrieve History
+iam.policy.delete IAM Policy Delete
+iam.service.read IAM Service Read
+iam.role.assign IAM Role Assign
+resource-controller.group.update Resource Group Update
+resource-controller.group.delete Resource Group Delete
+resource-controller.alias.delete Resource Alias Delete
+iam.policy.read IAM Policy Read
+resource-controller.broker.update Resource Broker Update
+resource-controller.broker.delete Resource Broker Delete
+resource-controller.binding.update Resource Binding Update
+global-search-tagging.tag.detach-user-tag Detach tag
+resource-controller.binding.create Resource Binding Create 
+resource-controller.instance.update Resource Instance Update
+resource-controller.alias.update Resource Alias Update 
+resource-controller.group.create Resource Group Create
+resource-controller.binding.delete Resource Binding Delete
+resource-controller.binding.retrieve Resource Binding Retrieve
+resource-controller.broker.create Resource Broker Create
+resource-controller.instance.update_plan Resource Instance Update Plan
+resource-controller.instance.delete Resource Instance Delete","=HYPERLINK(""https://cloud.ibm.com/iam/users/IBMid-550007USU5/policies/417658a1-7851-4b23-bba3-bbc55f3ae1ac"",""417658a1-7851-4b23-bba3-bbc55f3ae1ac"")"
