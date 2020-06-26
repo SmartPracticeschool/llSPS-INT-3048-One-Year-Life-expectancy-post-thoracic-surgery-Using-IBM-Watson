@@ -1,0 +1,52 @@
+"docType":"iam.identity-access-map"
+"version":"1.0.0"
+"createdById":"IBMid-550007USU5"
+"date":"2020-06-26T10:41:30.572Z"
+"fullReport":true
+"displayName":"Munender Sharma"
+"contact":"munendra04011998@gmail.com",,,,,,,
+"Resource","ID","Name","Email","Group Members","Role","Action","Policy IDs"
+"{""crn"":""crn:v1:bluemix:public:data-science-experience:eu-gb:a/d3a235b5d84c45a4964a88b652711da1:fb631f27-0e69-4e32-adb5-352976b18046::"",
+""displayName"":""Watson Studio-Munender"",
+""serviceName"":""data-science-experience"",
+""resourceGroupId"":""3d19fe8a5fa74e1a9c53d53706434dac"",
+""resourceGroupName"":""Default""}","IBMid-550007USU5","Munender Sharma","munendra04011998@gmail.com",,"Manager","global-search-tagging.resource.read Find cloud resources
+iam.policy.read IAM Policy Read","=HYPERLINK(""https://cloud.ibm.com/iam/users/IBMid-550007USU5/policies/417658a1-7851-4b23-bba3-bbc55f3ae1ac"",""417658a1-7851-4b23-bba3-bbc55f3ae1ac"")"
+,,,,,"Administrator","resource-controller.key.delete Resource Key Delete
+global-search-tagging.resource.read Find cloud resources
+iam.policy.update IAM Policy Update
+resource-controller.instance.create Resource Instance Create
+resource-controller.key.retrieve Resource Key Retrieve 
+iam.role.read IAM Role Read
+resource-controller.alias.retrieve Resource Alias Retrieve
+resource-controller.group.retrieve Resource Group Retrieve
+iam.policy.create IAM Policy Create
+resource-controller.key.update Resource Key Update
+resource-controller.instance.retrieve Resource Instance Retrieve
+resource-controller.quota.retrieve Quota Definitions Retrieve
+resource-controller.broker.retrieve Resource Broker Retrieve
+resource-controller.key.create Resource Key Create
+global-search-tagging.tag.attach-user-tag Attach tag
+iam.delegationPolicy.create IAM Delegation policy Create
+resource-controller.alias.create Resource Alias Create
+resource-controller.instance.retrieve_history Resource Instance Retrieve History
+iam.policy.delete IAM Policy Delete
+iam.service.read IAM Service Read
+iam.role.assign IAM Role Assign
+resource-controller.group.update Resource Group Update
+resource-controller.group.delete Resource Group Delete
+resource-controller.alias.delete Resource Alias Delete
+iam.policy.read IAM Policy Read
+resource-controller.broker.update Resource Broker Update
+resource-controller.broker.delete Resource Broker Delete
+resource-controller.binding.update Resource Binding Update
+global-search-tagging.tag.detach-user-tag Detach tag
+resource-controller.binding.create Resource Binding Create 
+resource-controller.instance.update Resource Instance Update
+resource-controller.alias.update Resource Alias Update 
+resource-controller.group.create Resource Group Create
+resource-controller.binding.delete Resource Binding Delete
+resource-controller.binding.retrieve Resource Binding Retrieve
+resource-controller.broker.create Resource Broker Create
+resource-controller.instance.update_plan Resource Instance Update Plan
+resource-controller.instance.delete Resource Instance Delete","=HYPERLINK(""https://cloud.ibm.com/iam/users/IBMid-550007USU5/policies/417658a1-7851-4b23-bba3-bbc55f3ae1ac"",""417658a1-7851-4b23-bba3-bbc55f3ae1ac"")"
