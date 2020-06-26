@@ -1,0 +1,271 @@
+"docType":"iam.identity-access-map"
+"version":"1.0.0"
+"createdById":"IBMid-550007USU5"
+"date":"2020-06-26T10:43:11.540Z"
+"fullReport":true
+"displayName":"Munender Sharma"
+"contact":"munendra04011998@gmail.com",,,,,,,
+"Resource","ID","Name","Email","Group Members","Role","Action","Policy IDs"
+"{""crn"":""crn:v1:bluemix:public:cloud-object-storage:global:a/d3a235b5d84c45a4964a88b652711da1:aa045475-7d02-4937-998a-5372c35fb1ad::"",
+""displayName"":""cloud-object-storage-kx"",
+""serviceName"":""cloud-object-storage"",
+""resourceGroupId"":""3d19fe8a5fa74e1a9c53d53706434dac"",
+""resourceGroupName"":""Default""}","iam-ServiceId-e50a63a0-d044-4a68-b9ea-cc0e2ec7c877","WDP-Project-Management-aa045475-7d02-4937-998a-5372c35fb1ad",,,"Manager","cloud-object-storage.bucket.put_firewall PUT Bucket Firewall
+cloud-object-storage.bucket.get_location GET Bucket Location
+cloud-object-storage.object.post_initiate_upload Initiate Multipart Upload
+cloud-object-storage.object.delete_upload Abort Multipart Upload
+cloud-object-storage.object.get_version GET Object (Version)
+cloud-object-storage.bucket.head HEAD Bucket
+cloud-object-storage.bucket.get_versions GET Bucket Object versions
+cloud-object-storage.bucket.put_protection PUT Bucket protection
+cloud-object-storage.bucket.put_metrics_monitoring PUT Bucket Metrics Monitoring
+cloud-object-storage.object.put_acl_version PUT Object acl (Version)
+cloud-object-storage.account.get_account_buckets GET Capabilities (List Containers)
+cloud-object-storage.object.delete DELETE Object
+cloud-object-storage.bucket.delete_bucket DELETE Bucket
+cloud-object-storage.bucket.get_lifecycle GET Bucket Lifecycle
+cloud-object-storage.bucket.get_activity_tracking GET Bucket Activity Tracking
+cloud-object-storage.bucket.list_bucket_crn Get Bucket CRN
+cloud-object-storage.bucket.get_firewall GET Bucket Firewall
+cloud-object-storage.object.get_acl_version GET Object acl (Version)
+cloud-object-storage.object.get GET Object
+cloud-object-storage.object.put_acl PUT Object acl
+cloud-object-storage.bucket.get_metrics_monitoring GET Bucket Metrics Monitoring
+cloud-object-storage.object.post_md POST Object (Metadata Update)
+cloud-object-storage.bucket.put_lifecycle PUT Bucket Lifecycle
+cloud-object-storage.object.copy PUT Object - Copy
+cloud-object-storage.object.copy_part Upload Part (Copy)
+cloud-object-storage.bucket.get_basic GET Bucket Basic
+cloud-object-storage.bucket.list_crk_id List Crk Id
+cloud-object-storage.object.head HEAD Object
+cloud-object-storage.bucket.get_versioning GET Bucket Versioning
+cloud-object-storage.bucket.put_quota PUT Container Quota
+cloud-object-storage.bucket.post_bucket POST Bucket
+cloud-object-storage.object.post_extend_retention POST Object extendRetention
+cloud-object-storage.bucket.delete_cors DELETE Bucket cors
+cloud-object-storage.bucket.get_fasp_connection_info GET Bucket FASP Connection Info
+cloud-object-storage.account.delete_fasp_connection_info DELETE Bucket FASP Connection Info
+cloud-object-storage.object.post_multi_delete DELETE Multiple Objects
+cloud-object-storage.bucket.get GET Bucket (List Objects)
+cloud-object-storage.bucket.get_uploads List Multipart Uploads
+cloud-object-storage.bucket.get_cors GET Bucket cors
+cloud-object-storage.object.post_legal_hold POST Object legalHold
+cloud-object-storage.object.copy_get PUT Object - Copy
+cloud-object-storage.bucket.put_versioning PUT Bucket Versioning
+cloud-object-storage.object.get_acl GET Object acl
+cloud-object-storage.object.delete_version DELETE Object (Version)
+cloud-object-storage.object.get_uploads List Parts
+cloud-object-storage.bucket.get_protection GET Bucket protection
+cloud-object-storage.bucket.put_cors PUT Bucket cors
+cloud-object-storage.bucket.put_activity_tracking PUT Bucket Activity Tracking
+cloud-object-storage.object.head_version HEAD Object (Version)
+cloud-object-storage.bucket.get_acl GET Bucket acl
+cloud-object-storage.bucket.put_bucket PUT Bucket
+cloud-object-storage.object.post POST Object (Forms)
+cloud-object-storage.object.put PUT Object
+cloud-object-storage.object.post_complete_upload Complete Multipart Upload
+cloud-object-storage.object.get_legal_hold GET Object legalHold
+cloud-object-storage.object.put_part Upload Part
+cloud-object-storage.object.copy_part_get Upload Part (Copy)
+cloud-object-storage.bucket.put_acl PUT Bucket acl
+cloud-object-storage.object.restore POST Object restore","=HYPERLINK(""https://cloud.ibm.com/iam/serviceids/ServiceId-e50a63a0-d044-4a68-b9ea-cc0e2ec7c877/policies/bda84850-76e0-4e0c-8656-02fe89eb38d1"",""bda84850-76e0-4e0c-8656-02fe89eb38d1"")"
+,,,,,"Manager","global-search-tagging.resource.read Find cloud resources
+iam.policy.read IAM Policy Read","=HYPERLINK(""https://cloud.ibm.com/iam/serviceids/ServiceId-e50a63a0-d044-4a68-b9ea-cc0e2ec7c877/policies/bda84850-76e0-4e0c-8656-02fe89eb38d1"",""bda84850-76e0-4e0c-8656-02fe89eb38d1"")"
+,,,,,"Administrator","resource-controller.key.delete Resource Key Delete
+global-search-tagging.resource.read Find cloud resources
+iam.policy.update IAM Policy Update
+resource-controller.instance.create Resource Instance Create
+resource-controller.key.retrieve Resource Key Retrieve 
+iam.role.read IAM Role Read
+resource-controller.alias.retrieve Resource Alias Retrieve
+resource-controller.group.retrieve Resource Group Retrieve
+iam.policy.create IAM Policy Create
+resource-controller.key.update Resource Key Update
+resource-controller.instance.retrieve Resource Instance Retrieve
+resource-controller.quota.retrieve Quota Definitions Retrieve
+resource-controller.broker.retrieve Resource Broker Retrieve
+resource-controller.key.create Resource Key Create
+global-search-tagging.tag.attach-user-tag Attach tag
+iam.delegationPolicy.create IAM Delegation policy Create
+resource-controller.alias.create Resource Alias Create
+resource-controller.instance.retrieve_history Resource Instance Retrieve History
+iam.policy.delete IAM Policy Delete
+iam.service.read IAM Service Read
+iam.role.assign IAM Role Assign
+resource-controller.group.update Resource Group Update
+resource-controller.group.delete Resource Group Delete
+resource-controller.alias.delete Resource Alias Delete
+iam.policy.read IAM Policy Read
+resource-controller.broker.update Resource Broker Update
+resource-controller.broker.delete Resource Broker Delete
+resource-controller.binding.update Resource Binding Update
+global-search-tagging.tag.detach-user-tag Detach tag
+resource-controller.binding.create Resource Binding Create 
+resource-controller.instance.update Resource Instance Update
+resource-controller.alias.update Resource Alias Update 
+resource-controller.group.create Resource Group Create
+resource-controller.binding.delete Resource Binding Delete
+resource-controller.binding.retrieve Resource Binding Retrieve
+resource-controller.broker.create Resource Broker Create
+resource-controller.instance.update_plan Resource Instance Update Plan
+resource-controller.instance.delete Resource Instance Delete","=HYPERLINK(""https://cloud.ibm.com/iam/serviceids/ServiceId-e50a63a0-d044-4a68-b9ea-cc0e2ec7c877/policies/bda84850-76e0-4e0c-8656-02fe89eb38d1"",""bda84850-76e0-4e0c-8656-02fe89eb38d1"")"
+,"iam-ServiceId-b69097c6-01f8-4c10-9845-e11c67f2de31","catalog-c142c604-3eca-43cd-8038-d68bb4c0dccf-HMAC-manager",,,"Manager","cloud-object-storage.bucket.put_firewall PUT Bucket Firewall
+cloud-object-storage.bucket.get_location GET Bucket Location
+cloud-object-storage.object.post_initiate_upload Initiate Multipart Upload
+cloud-object-storage.object.delete_upload Abort Multipart Upload
+cloud-object-storage.object.get_version GET Object (Version)
+cloud-object-storage.bucket.head HEAD Bucket
+cloud-object-storage.bucket.get_versions GET Bucket Object versions
+cloud-object-storage.bucket.put_protection PUT Bucket protection
+cloud-object-storage.bucket.put_metrics_monitoring PUT Bucket Metrics Monitoring
+cloud-object-storage.object.put_acl_version PUT Object acl (Version)
+cloud-object-storage.account.get_account_buckets GET Capabilities (List Containers)
+cloud-object-storage.object.delete DELETE Object
+cloud-object-storage.bucket.delete_bucket DELETE Bucket
+cloud-object-storage.bucket.get_lifecycle GET Bucket Lifecycle
+cloud-object-storage.bucket.get_activity_tracking GET Bucket Activity Tracking
+cloud-object-storage.bucket.list_bucket_crn Get Bucket CRN
+cloud-object-storage.bucket.get_firewall GET Bucket Firewall
+cloud-object-storage.object.get_acl_version GET Object acl (Version)
+cloud-object-storage.object.get GET Object
+cloud-object-storage.object.put_acl PUT Object acl
+cloud-object-storage.bucket.get_metrics_monitoring GET Bucket Metrics Monitoring
+cloud-object-storage.object.post_md POST Object (Metadata Update)
+cloud-object-storage.bucket.put_lifecycle PUT Bucket Lifecycle
+cloud-object-storage.object.copy PUT Object - Copy
+cloud-object-storage.object.copy_part Upload Part (Copy)
+cloud-object-storage.bucket.get_basic GET Bucket Basic
+cloud-object-storage.bucket.list_crk_id List Crk Id
+cloud-object-storage.object.head HEAD Object
+cloud-object-storage.bucket.get_versioning GET Bucket Versioning
+cloud-object-storage.bucket.put_quota PUT Container Quota
+cloud-object-storage.bucket.post_bucket POST Bucket
+cloud-object-storage.object.post_extend_retention POST Object extendRetention
+cloud-object-storage.bucket.delete_cors DELETE Bucket cors
+cloud-object-storage.bucket.get_fasp_connection_info GET Bucket FASP Connection Info
+cloud-object-storage.account.delete_fasp_connection_info DELETE Bucket FASP Connection Info
+cloud-object-storage.object.post_multi_delete DELETE Multiple Objects
+cloud-object-storage.bucket.get GET Bucket (List Objects)
+cloud-object-storage.bucket.get_uploads List Multipart Uploads
+cloud-object-storage.bucket.get_cors GET Bucket cors
+cloud-object-storage.object.post_legal_hold POST Object legalHold
+cloud-object-storage.object.copy_get PUT Object - Copy
+cloud-object-storage.bucket.put_versioning PUT Bucket Versioning
+cloud-object-storage.object.get_acl GET Object acl
+cloud-object-storage.object.delete_version DELETE Object (Version)
+cloud-object-storage.object.get_uploads List Parts
+cloud-object-storage.bucket.get_protection GET Bucket protection
+cloud-object-storage.bucket.put_cors PUT Bucket cors
+cloud-object-storage.bucket.put_activity_tracking PUT Bucket Activity Tracking
+cloud-object-storage.object.head_version HEAD Object (Version)
+cloud-object-storage.bucket.get_acl GET Bucket acl
+cloud-object-storage.bucket.put_bucket PUT Bucket
+cloud-object-storage.object.post POST Object (Forms)
+cloud-object-storage.object.put PUT Object
+cloud-object-storage.object.post_complete_upload Complete Multipart Upload
+cloud-object-storage.object.get_legal_hold GET Object legalHold
+cloud-object-storage.object.put_part Upload Part
+cloud-object-storage.object.copy_part_get Upload Part (Copy)
+cloud-object-storage.bucket.put_acl PUT Bucket acl
+cloud-object-storage.object.restore POST Object restore","=HYPERLINK(""https://cloud.ibm.com/iam/serviceids/ServiceId-b69097c6-01f8-4c10-9845-e11c67f2de31/policies/d72b981a-391b-4e15-9426-1a26789595cf"",""d72b981a-391b-4e15-9426-1a26789595cf"")"
+,,,,,"Manager","global-search-tagging.resource.read Find cloud resources
+iam.policy.read IAM Policy Read","=HYPERLINK(""https://cloud.ibm.com/iam/serviceids/ServiceId-b69097c6-01f8-4c10-9845-e11c67f2de31/policies/d72b981a-391b-4e15-9426-1a26789595cf"",""d72b981a-391b-4e15-9426-1a26789595cf"")"
+,"IBMid-550007USU5","Munender Sharma","munendra04011998@gmail.com",,"Manager","cloud-object-storage.bucket.put_firewall PUT Bucket Firewall
+cloud-object-storage.bucket.get_location GET Bucket Location
+cloud-object-storage.object.post_initiate_upload Initiate Multipart Upload
+cloud-object-storage.object.delete_upload Abort Multipart Upload
+cloud-object-storage.object.get_version GET Object (Version)
+cloud-object-storage.bucket.head HEAD Bucket
+cloud-object-storage.bucket.get_versions GET Bucket Object versions
+cloud-object-storage.bucket.put_protection PUT Bucket protection
+cloud-object-storage.bucket.put_metrics_monitoring PUT Bucket Metrics Monitoring
+cloud-object-storage.object.put_acl_version PUT Object acl (Version)
+cloud-object-storage.account.get_account_buckets GET Capabilities (List Containers)
+cloud-object-storage.object.delete DELETE Object
+cloud-object-storage.bucket.delete_bucket DELETE Bucket
+cloud-object-storage.bucket.get_lifecycle GET Bucket Lifecycle
+cloud-object-storage.bucket.get_activity_tracking GET Bucket Activity Tracking
+cloud-object-storage.bucket.list_bucket_crn Get Bucket CRN
+cloud-object-storage.bucket.get_firewall GET Bucket Firewall
+cloud-object-storage.object.get_acl_version GET Object acl (Version)
+cloud-object-storage.object.get GET Object
+cloud-object-storage.object.put_acl PUT Object acl
+cloud-object-storage.bucket.get_metrics_monitoring GET Bucket Metrics Monitoring
+cloud-object-storage.object.post_md POST Object (Metadata Update)
+cloud-object-storage.bucket.put_lifecycle PUT Bucket Lifecycle
+cloud-object-storage.object.copy PUT Object - Copy
+cloud-object-storage.object.copy_part Upload Part (Copy)
+cloud-object-storage.bucket.get_basic GET Bucket Basic
+cloud-object-storage.bucket.list_crk_id List Crk Id
+cloud-object-storage.object.head HEAD Object
+cloud-object-storage.bucket.get_versioning GET Bucket Versioning
+cloud-object-storage.bucket.put_quota PUT Container Quota
+cloud-object-storage.bucket.post_bucket POST Bucket
+cloud-object-storage.object.post_extend_retention POST Object extendRetention
+cloud-object-storage.bucket.delete_cors DELETE Bucket cors
+cloud-object-storage.bucket.get_fasp_connection_info GET Bucket FASP Connection Info
+cloud-object-storage.account.delete_fasp_connection_info DELETE Bucket FASP Connection Info
+cloud-object-storage.object.post_multi_delete DELETE Multiple Objects
+cloud-object-storage.bucket.get GET Bucket (List Objects)
+cloud-object-storage.bucket.get_uploads List Multipart Uploads
+cloud-object-storage.bucket.get_cors GET Bucket cors
+cloud-object-storage.object.post_legal_hold POST Object legalHold
+cloud-object-storage.object.copy_get PUT Object - Copy
+cloud-object-storage.bucket.put_versioning PUT Bucket Versioning
+cloud-object-storage.object.get_acl GET Object acl
+cloud-object-storage.object.delete_version DELETE Object (Version)
+cloud-object-storage.object.get_uploads List Parts
+cloud-object-storage.bucket.get_protection GET Bucket protection
+cloud-object-storage.bucket.put_cors PUT Bucket cors
+cloud-object-storage.bucket.put_activity_tracking PUT Bucket Activity Tracking
+cloud-object-storage.object.head_version HEAD Object (Version)
+cloud-object-storage.bucket.get_acl GET Bucket acl
+cloud-object-storage.bucket.put_bucket PUT Bucket
+cloud-object-storage.object.post POST Object (Forms)
+cloud-object-storage.object.put PUT Object
+cloud-object-storage.object.post_complete_upload Complete Multipart Upload
+cloud-object-storage.object.get_legal_hold GET Object legalHold
+cloud-object-storage.object.put_part Upload Part
+cloud-object-storage.object.copy_part_get Upload Part (Copy)
+cloud-object-storage.bucket.put_acl PUT Bucket acl
+cloud-object-storage.object.restore POST Object restore","=HYPERLINK(""https://cloud.ibm.com/iam/users/IBMid-550007USU5/policies/417658a1-7851-4b23-bba3-bbc55f3ae1ac"",""417658a1-7851-4b23-bba3-bbc55f3ae1ac"")"
+,,,,,"Manager","global-search-tagging.resource.read Find cloud resources
+iam.policy.read IAM Policy Read","=HYPERLINK(""https://cloud.ibm.com/iam/users/IBMid-550007USU5/policies/417658a1-7851-4b23-bba3-bbc55f3ae1ac"",""417658a1-7851-4b23-bba3-bbc55f3ae1ac"")"
+,,,,,"Administrator","resource-controller.key.delete Resource Key Delete
+global-search-tagging.resource.read Find cloud resources
+iam.policy.update IAM Policy Update
+resource-controller.instance.create Resource Instance Create
+resource-controller.key.retrieve Resource Key Retrieve 
+iam.role.read IAM Role Read
+resource-controller.alias.retrieve Resource Alias Retrieve
+resource-controller.group.retrieve Resource Group Retrieve
+iam.policy.create IAM Policy Create
+resource-controller.key.update Resource Key Update
+resource-controller.instance.retrieve Resource Instance Retrieve
+resource-controller.quota.retrieve Quota Definitions Retrieve
+resource-controller.broker.retrieve Resource Broker Retrieve
+resource-controller.key.create Resource Key Create
+global-search-tagging.tag.attach-user-tag Attach tag
+iam.delegationPolicy.create IAM Delegation policy Create
+resource-controller.alias.create Resource Alias Create
+resource-controller.instance.retrieve_history Resource Instance Retrieve History
+iam.policy.delete IAM Policy Delete
+iam.service.read IAM Service Read
+iam.role.assign IAM Role Assign
+resource-controller.group.update Resource Group Update
+resource-controller.group.delete Resource Group Delete
+resource-controller.alias.delete Resource Alias Delete
+iam.policy.read IAM Policy Read
+resource-controller.broker.update Resource Broker Update
+resource-controller.broker.delete Resource Broker Delete
+resource-controller.binding.update Resource Binding Update
+global-search-tagging.tag.detach-user-tag Detach tag
+resource-controller.binding.create Resource Binding Create 
+resource-controller.instance.update Resource Instance Update
+resource-controller.alias.update Resource Alias Update 
+resource-controller.group.create Resource Group Create
+resource-controller.binding.delete Resource Binding Delete
+resource-controller.binding.retrieve Resource Binding Retrieve
+resource-controller.broker.create Resource Broker Create
+resource-controller.instance.update_plan Resource Instance Update Plan
+resource-controller.instance.delete Resource Instance Delete","=HYPERLINK(""https://cloud.ibm.com/iam/users/IBMid-550007USU5/policies/417658a1-7851-4b23-bba3-bbc55f3ae1ac"",""417658a1-7851-4b23-bba3-bbc55f3ae1ac"")"
